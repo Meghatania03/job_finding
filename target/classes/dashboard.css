@@ -1,0 +1,55 @@
+.Button{
+    -fx-font-family: Cambria;
+    -fx-font-size: 24pt;
+-fx-background-color:  #37393C;
+    -fx-text-fill: #0f85ce;
+    -fx-underline: true;
+}
+.Button:hover {
+    -fx-background-color: #4C5155; /* Lighter background color on hover */
+    -fx-text-fill: #ffffff;         /* White text color on hover */
+    -fx-underline: true;        /* White underline color */
+    -fx-cursor: hand;              /* Change cursor to hand on hover */
+}
+.check-box{
+    -fx-font-family: "Lucida Bright";
+    -fx-font-size: 8pt;
+    -fx-text-fill: #ebebeb;
+
+
+}
+.check-box .box {
+    -fx-background-color: #BBBBBB; /* Green background for the box */
+    -fx-border-color: #ffffff;    /* White border */
+    -fx-border-radius: 5px;      /* Rounded corners */
+    -fx-background-radius: 5px;
+}
+.check-box:selected .box {
+    -fx-background-color: #45a049; /* Darker green when selected */
+}
+
+.check-box:selected .mark {
+    -fx-background-color: white; /* White checkmark */
+}
+.check-box:hover {
+    /*-fx-border-color: #FFD700; /* Gold border on hover */
+    -fx-text-fill:#BBBBBB;
+}
+.check-box:hover .box{
+    -fx-border-color: #BBBBBB;
+}
+
+.check-box:focused .box {
+    -fx-border-color: #FF8C00; /* Orange border when focused */
+}
+.label{
+    -fx-font-family: Cambria;
+    -fx-font-size: 20pt;
+    -fx-text-fill: #00e5ff;
+    -fx-font-style: italic;
+}
+.text-field{
+    -fx-background-radius: 50;
+    -fx-background-color:  #D5D5D5;
+    -fx-font-size: 11pt;
+}

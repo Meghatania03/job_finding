@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #000033;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.appliedJobsController">
+    <children>
+        <ImageView fx:id="dashboard_imageview" fitHeight="145.0" fitWidth="145.0" layoutX="30.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="home_btn_applicant" layoutX="274.0" layoutY="29.0" mnemonicParsing="false" onAction="#home_applicant_dashboard" style="-fx-background-color: #000033;" styleClass="Button" stylesheets="@../../../dashboard.css" text="Home" textFill="#9244b3" underline="true">
+            <font>
+                <Font name="Cambria" size="33.0" />
+            </font></Button>
+        <Button layoutX="433.0" layoutY="26.0" mnemonicParsing="false" style="-fx-background-color: #000033;" styleClass="Button" text="Applied Jobs" textFill="#9244b3" underline="true">
+         <font>
+            <Font name="Cambria" size="33.0" />
+         </font></Button>
+        <Button fx:id="profile_btn_applicant" layoutX="679.0" layoutY="27.0" mnemonicParsing="false" style="-fx-background-color: #000033;" styleClass="Button" stylesheets="@../../../dashboard.css" text="Profile" />
+        <TextField layoutX="895.0" layoutY="45.0" stylesheets="@../../../dashboard.css" />
+        <ImageView fitHeight="36.0" fitWidth="38.0" layoutX="852.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@search_final.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="22.0" layoutY="481.0" mnemonicParsing="false" style="-fx-background-color: #000033;" styleClass="Button" stylesheets="@../../../dashboard.css" text="Settings" textFill="#0f85ce">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Button>
+        <Button layoutX="53.0" layoutY="559.0" mnemonicParsing="false" onAction="#logout2_applicant" style="-fx-background-color: #000033;" styleClass="Button" text="Log Out" textFill="#0f85ce">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Label fx:id="dashboard_username" alignment="CENTER" layoutX="26.0" layoutY="191.0" prefHeight="27.0" prefWidth="162.0" text="username" textFill="#b1d6ed">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <ScrollPane layoutX="210.0" layoutY="121.0" prefHeight="531.0" prefWidth="891.0" style="-fx-background-color: #000033;">
+            <content>
+                <VBox fx:id="jobItemsVBox" prefHeight="506.0" prefWidth="889.0" style="-fx-background-color: #12132E;" />
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

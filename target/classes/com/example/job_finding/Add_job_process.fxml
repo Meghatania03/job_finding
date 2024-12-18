@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #12132E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.AddJobProcessController">
+   <children>
+      <Label layoutX="445.0" layoutY="50.0" style="-fx-border-color: #d0d0d0; -fx-border-width: 3; -fx-background-color: black;" text="Add New Job" textFill="#d0d0d0">
+         <font>
+            <Font name="Cambria Bold Italic" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="196.0" text="Enter Your Username:" textFill="#cecece">
+         <font>
+            <Font name="Cambria Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="289.0" text="Enter Your Password:" textFill="#cecece">
+         <font>
+            <Font name="Cambria Italic" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="376.0" text="Enter Job Category/Position:" textFill="#cecece">
+         <font>
+            <Font name="Cambria Italic" size="28.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="538.0" layoutY="195.0" prefHeight="36.0" prefWidth="212.0" promptText="Username" style="-fx-background-radius: 100; -fx-background-color: #cecece;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="jobCategoryField" layoutX="540.0" layoutY="374.0" prefHeight="36.0" prefWidth="212.0" promptText="eg. Software engineer, Marketing Agent" style="-fx-background-radius: 100; -fx-background-color: #cecece;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="540.0" layoutY="285.0" prefHeight="36.0" prefWidth="211.0" promptText="Password" style="-fx-background-color: #cecece; -fx-background-radius: 100;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="submitButton" layoutX="512.0" layoutY="525.0" mnemonicParsing="false" onAction="#handleSubmit" style="-fx-background-color: #207aff; -fx-background-radius: 100; -fx-border-color: black; -fx-border-radius: 100; -fx-border-width: 2;" text="Submit">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

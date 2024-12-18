@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="900.0" style="-fx-background-color: #12132E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.JobItemController_company">
+   <children>
+      <Button layoutX="416.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleAddJobButtonClick" style="-fx-background-color: #12132E;" styleClass="Button" stylesheets="@../../../dashboard.css" text="Add Job" />
+      <ImageView fitHeight="37.0" fitWidth="32.0" layoutX="390.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

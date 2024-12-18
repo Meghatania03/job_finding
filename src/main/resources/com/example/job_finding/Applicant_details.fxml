@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1100.0" style="-fx-background-color: #12132E;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.ApplicantDetailsController">
+   <children>
+      <Button fx:id="go_back_applicant_list_view" layoutX="59.0" layoutY="28.0" mnemonicParsing="false" onAction="#go_back_applicant_details" style="-fx-background-color: #12132E;" styleClass="Button" stylesheets="@../../../dashboard.css" text="Go Back" />
+      <Label fx:id="Firstname_applicant_details" layoutX="456.0" layoutY="185.0" prefHeight="32.0" prefWidth="80.0" text="First" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lastname_applicant_details" layoutX="556.0" layoutY="185.0" prefHeight="30.0" prefWidth="76.0" text="last" textFill="WHITE">
+         <font>
+            <Font name="Cambria Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="245.0" stylesheets="@../../../dashboard.css" text="Institution Name:" />
+      <Label layoutX="101.0" layoutY="301.0" stylesheets="@../../../dashboard.css" text="Field Of Study:" />
+      <Label layoutX="104.0" layoutY="357.0" stylesheets="@../../../dashboard.css" text="highest Qualification:" />
+      <Label layoutX="100.0" layoutY="417.0" stylesheets="@../../../dashboard.css" text="Graduation Year:" />
+      <Label layoutX="99.0" layoutY="474.0" stylesheets="@../../../dashboard.css" text="Preferred Job Title:" />
+      <Label layoutX="622.0" layoutY="243.0" stylesheets="@../../../dashboard.css" text="Years Of Experience:" />
+      <Label layoutX="96.0" layoutY="526.0" stylesheets="@../../../dashboard.css" text="Github/LinkedIn URL:" />
+      <Label layoutX="623.0" layoutY="300.0" stylesheets="@../../../dashboard.css" text="Gender:" />
+      <Label layoutX="623.0" layoutY="355.0" stylesheets="@../../../dashboard.css" text="Email ID:" />
+      <Label layoutX="623.0" layoutY="411.0" stylesheets="@../../../dashboard.css" text="Contact no. :" />
+      <Label layoutX="621.0" layoutY="471.0" stylesheets="@../../../dashboard.css" text="Address:" />
+      <Label fx:id="Institution_name_applicant_details" layoutX="320.0" layoutY="247.0" prefHeight="28.0" prefWidth="293.0" text="Institution name" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="field_of_study_applicant_details" layoutX="273.0" layoutY="303.0" prefHeight="28.0" prefWidth="293.0" text="field of study" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="highest_qualification_applicant_details" layoutX="356.0" layoutY="360.0" prefHeight="28.0" prefWidth="263.0" text="highest qualification" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="graduation_year_applicant_details" layoutX="309.0" layoutY="419.0" prefHeight="28.0" prefWidth="263.0" text="graduation year" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="pref_job_title_applicant_details" layoutX="325.0" layoutY="475.0" prefHeight="28.0" prefWidth="263.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="url_applicant_details" layoutX="355.0" layoutY="527.0" prefHeight="28.0" prefWidth="263.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="years_of_experience_applicant_details" layoutX="872.0" layoutY="244.0" prefHeight="28.0" prefWidth="132.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="gender_applicant_details" layoutX="727.0" layoutY="302.0" prefHeight="28.0" prefWidth="132.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailid_applicant_details" layoutX="744.0" layoutY="356.0" prefHeight="28.0" prefWidth="352.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="contactno_applicant_details" layoutX="778.0" layoutY="413.0" prefHeight="28.0" prefWidth="256.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="address_applicant_details" layoutX="731.0" layoutY="473.0" prefHeight="28.0" prefWidth="360.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="31.0" fitWidth="32.0" layoutX="43.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images%20(1).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="profile_imageview" fitHeight="158.0" fitWidth="159.0" layoutX="446.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

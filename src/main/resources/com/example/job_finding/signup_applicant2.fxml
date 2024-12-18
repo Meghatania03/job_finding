@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="617.0" style="-fx-background-color: #000033;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.signup">
+   <children>
+      <Label layoutX="73.0" layoutY="96.0" stylesheets="@../../../dashboard.css" text="Graduation Year:">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="140.0" stylesheets="@../../../dashboard.css" text="Institution Name:">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="180.0" stylesheets="@../../../dashboard.css" text="Field Of Study:">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="216.0" stylesheets="@../../../dashboard.css" text="github/Linkdn URL:">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="298.0" stylesheets="@../../../dashboard.css" text="Years Of Experience:">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="225.0" layoutY="137.0" promptText="University or school name" stylesheets="@../../../dashboard.css" />
+      <TextField layoutX="225.0" layoutY="177.0" promptText="e.g., , Business Administration" stylesheets="@../../../dashboard.css" />
+      <TextField layoutX="225.0" layoutY="213.0" promptText="github/Linkdn URL:" stylesheets="@../../../dashboard.css" />
+      <Button fx:id="submit_applicant" layoutX="516.0" layoutY="377.0" mnemonicParsing="false" onAction="#signup_applicant_final" style="-fx-background-radius: 100; -fx-background-color: #207aff;" text="Submit" textFill="WHITE" />
+      <Label layoutX="73.0" layoutY="258.0" stylesheets="@../../../dashboard.css" text="Preferred Job Title:" />
+      <TextField layoutX="225.0" layoutY="254.0" stylesheets="@../../../dashboard.css" />
+      <TextField layoutX="225.0" layoutY="93.0" stylesheets="@../../../dashboard.css" />
+      <TextField layoutX="226.0" layoutY="295.0" stylesheets="@../../../dashboard.css" />
+      <Label layoutX="67.0" layoutY="54.0" stylesheets="@../../../dashboard.css" text="Highest Qualification:" />
+      <TextField layoutX="225.0" layoutY="51.0" promptText="e.g., Bachelor's, Master's." stylesheets="@../../../dashboard.css" />
+      <Label layoutX="73.0" layoutY="340.0" stylesheets="@../../../dashboard.css" text="Password:" />
+      <TextField layoutX="225.0" layoutY="337.0" promptText="A minimum 8 digit password" stylesheets="@../../../dashboard.css" />
+   </children>
+</AnchorPane>

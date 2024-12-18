@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="900.0" style="-fx-background-color: #12132E; -fx-border-color: black; -fx-border-width: 1.5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.JobItemController_company">
+    <children>
+        <ImageView fx:id="imageview_ji" fitHeight="80.0" fitWidth="98.0" layoutX="38.0" layoutY="14.0" pickOnBounds="true" />
+        <Label fx:id="company_name_ji" layoutX="168.0" layoutY="42.0" text="Company name" textFill="#d5d5d5">
+            <font>
+                <Font name="Cambria Bold" size="23.0" />
+            </font>
+        </Label>
+        <Label fx:id="job_type_ji" alignment="CENTER" layoutX="363.0" layoutY="46.0" prefHeight="22.0" prefWidth="138.0" style="-fx-background-color: #D5D5D5; -fx-background-radius: 100;" text="job type">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="industry_ji" alignment="CENTER" layoutX="552.0" layoutY="46.0" prefHeight="22.0" prefWidth="131.0" style="-fx-background-color: #D5D5D5; -fx-background-radius: 100;" text="industry">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="address_ji" alignment="CENTER" layoutX="695.0" layoutY="25.0" prefHeight="63.0" prefWidth="99.0" text="address" textFill="#ededed">
+            <font>
+                <Font name="Candara Light Italic" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

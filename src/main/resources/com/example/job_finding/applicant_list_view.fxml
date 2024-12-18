@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="107.0" prefWidth="900.0" style="-fx-background-color: #12132E; -fx-border-color: black; -fx-border-width: 1.5;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.job_finding.JobItemController_company">
+    <children>
+        <ImageView fx:id="imageview_ji" fitHeight="80.0" fitWidth="98.0" layoutX="14.0" layoutY="16.0" pickOnBounds="true" />
+        <Label fx:id="first_name_ji" layoutX="129.0" layoutY="40.0" prefHeight="28.0" prefWidth="94.0" text="First" textFill="#d5d5d5">
+            <font>
+                <Font name="Cambria Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="pref_job_applicant" alignment="CENTER" layoutX="324.0" layoutY="43.0" prefHeight="22.0" prefWidth="125.0" style="-fx-background-color: #D5D5D5; -fx-background-radius: 100;" text="preferred job">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="qualification_applicant" alignment="CENTER" layoutX="605.0" layoutY="43.0" prefHeight="22.0" prefWidth="90.0" style="-fx-background-color: #D5D5D5; -fx-background-radius: 100;" text="qualification">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <Button fx:id="view_details" layoutX="797.0" layoutY="39.0" mnemonicParsing="false" onAction="#viewDetails" style="-fx-background-color: #207aff; -fx-background-radius: 100; -fx-border-color: black; -fx-border-radius: 100; -fx-border-width: 1.5;" text="View Details">
+            <font>
+                <Font name="Cambria Bold" size="14.0" />
+            </font>
+        </Button>
+        <Label fx:id="address_ji_applicant" alignment="CENTER" layoutX="695.0" layoutY="21.0" prefHeight="65.0" prefWidth="102.0" text="address" textFill="#ededed">
+            <font>
+                <Font name="Candara Light Italic" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="uni_applicant" alignment="CENTER" layoutX="480.0" layoutY="43.0" prefHeight="22.0" prefWidth="90.0" style="-fx-background-color: #D5D5D5; -fx-background-radius: 100;" text="uni">
+            <font>
+                <Font name="Cambria" size="14.0" />
+            </font>
+        </Label>
+        <Label fx:id="last_name_ji1" layoutX="223.0" layoutY="40.0" prefHeight="28.0" prefWidth="86.0" text="last" textFill="#d5d5d5">
+            <font>
+                <Font name="Cambria Bold" size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
